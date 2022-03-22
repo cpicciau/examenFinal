@@ -1,3 +1,10 @@
 /* ********* */
 /* @TYPOGRAPHY */
 /* ********* */
+html {
+    font-family: map-get(map-get($fuente, family), arial);
+}
+
+h2 {
+    color: map-get($colores, negroTitulos);
+}

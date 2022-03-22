@@ -1,3 +1,32 @@
 /* ********* */
 /* @VARIABLES */
 /* ********* */
+
+// Colores
+$colores: (
+    negroTitulos: #49504a,
+    azulTexto: #78a8f5,
+    azulBotonYLista: #4385f5,
+    fondoDevices: #f2f7f8,
+    grisTexto: #8c94a3,
+    grisLista: #cccccc
+);
+
+// Fuentes
+$fuente: (
+    // Tipo 
+    family: (
+        arial: 'Arial'
+    ),
+
+    size: (
+        // Tamaños 
+        // Títulos
+        h2: 1.5rem,
+        // Texto
+        texto: 1.125rem
+    )
+);
+
+// Interlineado
+$interlineado: 1.875rem;

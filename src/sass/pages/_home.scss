@@ -1,3 +1,77 @@
 /* ********* */
 /* @HOME */
 /* ********* */
+
+// Section Mobile Devices
+.mobileDevices {
+    border-top: 1px solid map-get($colores, negroTitulos);
+    background-color: map-get($colores, fondoDevices);
+    line-height: $interlineado;
+    display: flex;
+    padding: 1.25rem 3.125rem;
+    
+    // Texto
+    &__texto {
+        display: flex;
+        flex-direction: column;
+        padding: 1.25rem;
+        gap: 1.25rem;
+        color: map-get($colores, grisTexto);
+
+        // Parrafo azul
+        &--parrafoAzul {
+            border-left: 2px solid map-get($colores, azulTexto);
+            color: map-get($colores, azulTexto);
+            padding-left: 1.25rem;
+        }
+    }
+    // Botón
+    &__boton {
+        background-color: map-get($colores, azulBotonYLista); 
+        width: 12.5rem;
+        color: map-get($colores, fondoDevices);
+        padding: 1.25rem;
+        border-radius: 5px;
+        border: 0;
+    }
+
+    // Imagen izquierda
+    img {
+        width: 95%;
+    }
+}
+
+// Section Responsive Design
+.responsiveDesign {
+    display: flex;
+    padding: 1.875rem 3.125rem;
+    justify-content: center;
+
+    // Texto
+    &__texto {
+        display: flex;
+        flex-direction: column;
+        padding-left: 1.25rem;
+        color: map-get($colores, grisTexto);
+        line-height: $interlineado;
+        gap: 1.25rem;
+
+        // Elementos lista
+        &--lista {
+            color: map-get($colores, grisLista);
+            padding-left: 3.125rem;
+        }
+
+        &__imagen {
+            width: 80%;
+        }
+    }
+     // Imagen derecha
+     img {
+        width: 95%;
+    }
+
+    h2 {
+        padding-left: 1.25rem;
+    }
+}
